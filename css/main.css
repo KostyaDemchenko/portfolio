@@ -1503,7 +1503,7 @@ header .header-logo a {
 	transform: rotate(45deg);
 }
 
-menu is open .menu-is-open #menu-nav-wrap {
+.menu-is-open #menu-nav-wrap {
 	-webkit-transform: translateX(0);
 	-ms-transform: translateX(0);
 	transform: translateX(0);
