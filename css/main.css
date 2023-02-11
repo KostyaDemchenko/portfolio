@@ -80,7 +80,7 @@ body {
 
 a,
 a:visited {
-	color: #f0a359;
+	color: #567370;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -370,7 +370,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #1e538f;
+	background: #95BFBF;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -379,7 +379,7 @@ ul.disc li::before {
 
 dt {
 	margin: 0;
-	color: #1e538f;
+	color: #95BFBF;
 }
 
 dd {
@@ -671,7 +671,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
 	color: #1c0d02;
-	border-bottom: 1px solid #1e538f;
+	border-bottom: 1px solid #95BFBF;
 }
 
 label,
@@ -731,7 +731,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
 	border: none;
-	-webkit-text-fill-color: #87b9e7;
+	-webkit-text-fill-color: #567370;
 	transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -843,8 +843,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #1e538f;
-	color: #1e538f;
+	border: 3px solid #95BFBF;
+	color: #95BFBF;
 }
 
 button::-moz-focus-inner,
@@ -1006,7 +1006,7 @@ dictionary definition style * ----------------------------------------------- .d
 }
 
 .stats-tabs li a:hover {
-	color: #1e538f;
+	color: #95BFBF;
 }
 
 .stats-tabs li a em {
@@ -1170,7 +1170,7 @@ dictionary definition style * ----------------------------------------------- .d
 .section-intro h3 {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 2rem;
-	color: #1e538f;
+	color: #95BFBF;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 	margin-bottom: 0;
@@ -1536,6 +1536,7 @@ header .header-logo a {
 	background: #151515;
 	width: 100%;
 	height: 100%;
+	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -1824,7 +1825,7 @@ header .header-logo a {
 #about h3 {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 1.6rem;
-	color: #1e538f;
+	color: #95BFBF;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 	margin: 0 0 0 .3rem;
@@ -1842,8 +1843,8 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #818181;
 	width: 50%;
+	background-image: url(../images/bg-about.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1927,7 +1928,7 @@ header .header-logo a {
 	top: 0;
 	left: 0;
 	color: rgba(46, 22, 3, 0.4);
-	color: #1e538f;
+	color: #95BFBF;
 }
 
 .about-services ul.services .icon-wrap i {
@@ -2064,7 +2065,7 @@ header .header-logo a {
 	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 9.6rem;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 #skills .overlay {
@@ -2105,7 +2106,7 @@ header .header-logo a {
 
 #skills .section-intro h3 {
 	color: rgba(255, 255, 255, 0.35);
-	color: #87b9e7;
+	color: #567370;
 }
 
 #skills .section-intro h1 {
@@ -2117,7 +2118,7 @@ header .header-logo a {
 }
 
 #skills .skill-bars li {
-	background: #87b9e7;
+	background: #567370;
 	margin-bottom: 7.2rem;
 }
 
@@ -2170,7 +2171,7 @@ header .header-logo a {
 
 #credentials .credentials-content h2 {
 	margin-bottom: 4.8rem;
-	color: #1e538f;
+	color: #95BFBF;
 	padding-left: 8rem;
 	font-size: 1.8rem;
 	text-transform: uppercase;
@@ -2224,7 +2225,7 @@ header .header-logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #1e538f;
+	background: #95BFBF;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -2523,7 +2524,7 @@ header .header-logo a {
 
 .lg-outer .lg-thumb-item.active,
 .lg-outer .lg-thumb-item:hover {
-	border-color: #87b9e7;
+	border-color: #567370;
 }
 
 .lg-progress-bar .lg-progress {
@@ -2572,7 +2573,7 @@ header .header-logo a {
 }
 
 #stats .stat h3 {
-	color: #87b9e7;
+	color: #567370;
 	font-size: 4.8rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -2633,7 +2634,7 @@ header .header-logo a {
 }
 
 #contact .section-intro h3 {
-	color: #87b9e7;
+	color: #567370;
 }
 
 #contact .section-intro p.lead {
@@ -2697,7 +2698,7 @@ contact form .contact-form {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #1e538f;
+	background: #95BFBF;
 }
 
 #contact form .form-field label::after {
@@ -2707,7 +2708,7 @@ contact form .contact-form {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #1e538f;
+	border-right: 5px solid #95BFBF;
 	content: "";
 }
 
@@ -2732,7 +2733,7 @@ contact form .contact-form {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #1e538f;
+	border-color: #95BFBF;
 	color: #FFFFFF;
 }
 
@@ -2742,7 +2743,7 @@ contact form .contact-form {
 }
 
 #contact textarea:focus {
-	border-color: #1e538f;
+	border-color: #95BFBF;
 	color: #FFFFFF;
 }
 
@@ -2755,13 +2756,13 @@ contact form .contact-form {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #87b9e7;
+	background: #567370;
 	color: #FFFFFF;
 }
 
 #contact button.submitform:hover,
 #contact button.submitform:focus {
-	background: #1e538f;
+	background: #95BFBF;
 }
 
 #message-warning,
@@ -2778,7 +2779,7 @@ contact form .contact-form {
 }
 
 #message-success {
-	color: #87b9e7;
+	color: #567370;
 }
 
 #message-warning i,
