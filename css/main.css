@@ -2797,8 +2797,12 @@ form loader #submit-loader {
   position: relative;
 }
 
-.contact-info p {
+.contact-info a {
   color: #555;
+}
+
+.contact-info a:hover {
+  color: #fff;
 }
 
 .contact-info .collapse {
