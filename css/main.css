@@ -1259,7 +1259,7 @@ header .header-logo a {
   border: none;
   width: 60px;
   height: 60px;
-  background: url("../images/logo.png") no-repeat center;
+  background: url("../images/logo.webp") no-repeat center;
   background-size: 60px 60px;
   font: 0/0 a;
   text-shadow: none;
@@ -1516,7 +1516,7 @@ header .header-logo a {
   background: #151515;
   width: 100%;
   height: 100%;
-  background-image: url(../images/home-bg.jpg);
+  background-image: url(../images/home-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1819,7 +1819,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   width: 50%;
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/about-bg.webp);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
