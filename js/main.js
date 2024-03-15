@@ -113,12 +113,6 @@
 		});
 	};
 
-	/* Placeholder Plugin Settings
-	 * ------------------------------------------------------ */
-	const ssPlaceholder = () => {
-		$('input, textarea, select').placeholder();
-	};
-
 	/* Stat Counter
 	 *------------------------------------------------------- */
 	const ssStatCounter = () => {
@@ -232,7 +226,6 @@
 		ssMenuOnScrolldown();
 		ssOffCanvas();
 		ssSmoothScroll();
-		ssPlaceholder();
 		ssStatCounter();
 		ssAlertBoxes();
 		ssAnimations();
