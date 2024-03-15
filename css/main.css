@@ -1,5 +1,9 @@
+/* IMPORTS */
+
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("windows10/windows10.css");
+
+/* FONTS */
 
 @font-face {
   font-family: "montserrat-regular";
@@ -9,7 +13,6 @@
   font-style: normal;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "montserrat-bold";
   src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"),
@@ -17,7 +20,6 @@
   font-style: normal;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "librebaskerville-regular";
   src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2")
@@ -27,7 +29,6 @@
   font-style: normal;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "librebaskerville-italic";
   src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2")
@@ -37,7 +38,6 @@
   font-style: normal;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "librebaskerville-bold";
   src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2")
@@ -57,18 +57,18 @@ html {
     font-size: 9.375px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   html {
     font-size: 10px;
   }
 }
-
 @media only screen and (max-width: 400px) {
   html {
     font-size: 9.375px;
   }
 }
+
+/* VARIABLES */
 
 :root {
   /* WHITE */
@@ -92,11 +92,6 @@ html {
   /* COLOR SCHEME */
   --blue: #567370;
   --red: #d32b2e;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-  }
 }
 
 html,
