@@ -642,7 +642,6 @@ select {
   padding: 1.5rem 0;
   border: 0;
   outline: none;
-  vertical-align: middle;
   color: var(--dark-grey);
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.5rem;
@@ -1287,6 +1286,7 @@ header .header-logo a {
   z-index: 800;
   overflow-y: auto;
   -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -1370,7 +1370,6 @@ header .header-logo a {
   height: 30px;
   width: 30px;
   border-radius: 3px;
-  background-color: var(--white-35);
   position: absolute;
   top: 36px;
   right: 30px;
