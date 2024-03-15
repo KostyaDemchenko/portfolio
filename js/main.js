@@ -24,12 +24,6 @@
 		});
 	};
 
-	/* FitVids
-	------------------------------------------------------ */
-	const ssFitVids = () => {
-		$(".fluid-video-wrapper").fitVids();
-	};
-
 	/* Masonry
 	------------------------------------------------------ */
 	const ssMasonryFolio = () => {
@@ -230,7 +224,6 @@
 	 * ------------------------------------------------------ */
 	const ssInit = () => {
 		ssPreloader();
-		ssFitVids();
 		ssMasonryFolio();
 		ssLightGallery();
 		ssMenuOnScrolldown();
