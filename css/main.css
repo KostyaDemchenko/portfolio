@@ -3,6 +3,32 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("windows10/windows10.css");
 
+/* VARIABLES */
+
+:root {
+  /* WHITE */
+  --white: #ffffff;
+  --white-70: #ffffffcb;
+  --white-50: #ffffffcc;
+  --white-35: #ffffff5f;
+  --white-10: #ffffff1a;
+  --half-white: #ebebeb;
+
+  /* GREY */
+  --light-grey: #a4a4a4;
+  --grey: #737373;
+  --dark-grey: #4f4f4f;
+
+  /* BLACK */
+  --light-black: #222222;
+  --half-black: #0a0a0a;
+  --black: #000000;
+
+  /* COLOR SCHEME */
+  --blue: #567370;
+  --red: #d32b2e;
+}
+
 /* FONTS */
 
 @font-face {
@@ -68,31 +94,27 @@ html {
   }
 }
 
-/* VARIABLES */
+/* SCROLL-BAR */
 
-:root {
-  /* WHITE */
-  --white: #ffffff;
-  --white-70: #ffffffcb;
-  --white-50: #ffffffcc;
-  --white-35: #ffffff5f;
-  --white-10: #ffffff1a;
-  --half-white: #ebebeb;
+::-webkit-scrollbar {
+  /* vertical scrollbar */
+  width: 2px;
 
-  /* GREY */
-  --light-grey: #a4a4a4;
-  --grey: #737373;
-  --dark-grey: #4f4f4f;
-
-  /* BLACK */
-  --light-black: #222222;
-  --half-black: #0a0a0a;
-  --black: #000000;
-
-  /* COLOR SCHEME */
-  --blue: #567370;
-  --red: #d32b2e;
+  /* horizontal scrollbar */
+  height: 1px;
 }
+
+/* customize the scrollbar Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* customize the scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--grey);
+}
+
+/* GENERAL */
 
 html,
 body {
